@@ -9,9 +9,9 @@ node -v
 
 - for node project
   
-  npm i
-  npm init --y
-  npm install nodemon -g
+  - npm i
+  - npm init --y
+  - npm install nodemon -g
 
 - for express generator project
 
