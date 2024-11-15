@@ -13,6 +13,9 @@ node -v
   - npm init --y
   - npm install nodemon -g
 
+- To install session package
+  - npm install express-session --save
+
 - for express generator project
 
   - To install express generator
