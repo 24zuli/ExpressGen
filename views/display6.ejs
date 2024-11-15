@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script>
+      window.onload = function () {
+        const name = localStorage.getItem("userName");
+        const mobile = localStorage.getItem("userMobile");
+
+        // Display data
+        document.getElementById("userName").textContent = name || "Pooja";
+        document.getElementById("userMobile").textContent =
+          mobile || "6351857705";
+      };
+    </script>
+  </head>
+
+  <body>
+    <h1><%= title %></h1>
+    <p><strong>Name:</strong> <span id="userName"></span></p>
+    <p><strong>Mobile:</strong> <span id="userMobile"></span></p>
+    <a href="/">Back to Form</a>
+  </body>
+</html>
