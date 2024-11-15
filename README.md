@@ -17,18 +17,18 @@ node -v
 
   - To install express generator
     
-    npm i express-generator -g
+    - npm i express-generator -g
 
   - To create a new project
     
     express --view = ejs projectname
     - then change directory
 
-      cd projectname
+      - cd projectname
 
   - To run project
     
-    npm start
-    nodemon
+    - npm start
+    - nodemon
     
   
