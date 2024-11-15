@@ -20,6 +20,7 @@ node -v
   - To create a new project
     express --view = ejs projectname
     - then change directory
+
       cd projectname
 
   - To run project
